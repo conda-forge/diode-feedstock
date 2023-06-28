@@ -1,5 +1,5 @@
 {% set name = "diode" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/diode-{{ version }}.tar.gz
-  sha256: bb863e036fa2c3a9ba19db1c462629abbaffbc731f20b524e9924f22c384b08e
+  sha256: 9b522b770572bbdd8678708ac74498dce5ab76430ecdfff123daf8a954db8465
 
 build:
   number: 0
@@ -45,7 +45,7 @@ about:
   home: https://github.com/mrzv/diode
   summary: alpha shape generator using CGAL
   license: GPL-2.0-or-later
-  license_file: 
+  license_file:
     - LICENSE
     - vendor-licenses/
 
