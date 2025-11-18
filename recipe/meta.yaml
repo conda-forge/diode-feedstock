@@ -22,13 +22,13 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - scikit-build-core
-    - pybind11
   host:
     - pip
     - python
     - cgal-cpp
     - python
+    - scikit-build-core
+    - pybind11
     - gmp
     - mpfr
     - numpy
