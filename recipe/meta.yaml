@@ -24,7 +24,7 @@ requirements:
     - make
   host:
     - pip
-    - python
+    - python >=3.12
     - cgal-cpp
     - python
     - scikit-build-core
