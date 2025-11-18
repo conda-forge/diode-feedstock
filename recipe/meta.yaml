@@ -27,7 +27,7 @@ requirements:
     - python
     - cgal-cpp
     - python
-    - scikit-build
+    - scikit-build-core
     - gmp
     - mpfr
   run:
