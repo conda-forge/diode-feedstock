@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  skip: true  # [win]
+  skip: true  # [win, py<312]
 
 requirements:
   build:
@@ -24,7 +24,7 @@ requirements:
     - make
   host:
     - pip
-    - python >=3.12
+    - python
     - cgal-cpp
     - python
     - scikit-build-core
