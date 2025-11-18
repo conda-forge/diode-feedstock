@@ -31,7 +31,7 @@ requirements:
     - pybind11
     - gmp
     - mpfr
-    - numpy>=2.3.5
+    - numpy >=2.3.5
   run:
     - python
 
