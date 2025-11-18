@@ -28,6 +28,7 @@ requirements:
     - cgal-cpp
     - python
     - scikit-build-core
+    - pybind11
     - gmp
     - mpfr
   run:
