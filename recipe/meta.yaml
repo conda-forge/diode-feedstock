@@ -11,7 +11,7 @@ source:
   sha256: 62e473d9a939d1a16ca3b9a16c85228cf227862e8ea8fee7b5fc456bc0ce8bb3
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [win or py<312]
 
@@ -22,6 +22,9 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - numpy >=2                              # [build_platform != target_platform]
   host:
     - pip
     - python
@@ -34,7 +37,6 @@ requirements:
     - numpy >=2.3.5
   run:
     - python
-
 
 test:
   imports:
