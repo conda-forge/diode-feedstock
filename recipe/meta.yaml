@@ -38,7 +38,6 @@ requirements:
   run:
     - python
 
-
 test:
   imports:
     - diode
