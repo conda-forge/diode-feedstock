@@ -1,5 +1,5 @@
 {% set name = "diode" %}
-{% set version = "1.1.4" %}
+{% set version = "1.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/diode-{{ version }}.tar.gz
-  sha256: e3d2d8cee789cf7db5754528d4828a3b3a1c3807d55136368cf716444e284930
+  sha256: 9299e2c6e99c02c5c1e3bd442669f8333bfcc58c7fffe457eb35a3e6444e0913
 
 build:
   number: 0
